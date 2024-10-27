@@ -1,8 +1,23 @@
+* {
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: lightblue;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 300px;
+}
+
 h1 {
-    background-color: green;
     color: gold;
     font-family: Georgia, sans-serif;
     font-size: 38px;
+    text-align: center;
 }
 
 h2 {
@@ -19,17 +34,8 @@ h3 {
 }
 
 .recipe-list {
-    font-size: 22px;
-}
-
-.recipe-list .list1 {
     color: white;
-    font-size: 50px;
-}
-
-.recipe-list .list3 {
-    color: gray;
-    font-size: 10px;
+    font-size: 22px;
 }
 
 #image {
@@ -44,9 +50,12 @@ h3 {
 
 p,
 a {
-    background-color: yellow;
     color: black;
     font-family: Arial, sans-serif;
+}
+
+ul {
+    border: 10px solid purple;
 }
 
 li {
