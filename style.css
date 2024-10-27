@@ -1,0 +1,56 @@
+h1 {
+    background-color: green;
+    color: gold;
+    font-family: Georgia, sans-serif;
+    font-size: 38px;
+}
+
+h2 {
+    background-color: blue;
+    color: pink;
+    font-weight: 100;
+    text-align: center;
+}
+
+h3 {
+    background-color: brown;
+    color: purple;
+    text-align: center;
+}
+
+.recipe-list {
+    font-size: 22px;
+}
+
+.recipe-list .list1 {
+    color: white;
+    font-size: 50px;
+}
+
+.recipe-list .list3 {
+    color: gray;
+    font-size: 10px;
+}
+
+#image {
+    height: auto;
+    width: 800px;
+}
+
+#image.sausage {
+    height: 100px;
+    width: 200px
+}
+
+p,
+a {
+    background-color: yellow;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+li {
+    color: red;
+    font-family: Tahoma, 'Times New Roman', sans-serif;
+    font-size: 20px;
+}
